@@ -1,7 +1,7 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .container {
-        width: 1000px;
-        height: auto;
+        width: 900px;
+        height: 500px;
     }
 
     #logo {
@@ -17,29 +17,35 @@
 
     #info {
         letter-spacing: 0.5px;
-        line-height: 1rem;
-        font-size: 12px;
+        line-height: 0.9rem;
+        font-size: 11px;
+        width: 280px;
     }
 
-    /* ROW 1 */
-    .row-1 {
-        display: flex;
-        width: 100%;
+    /* COL 1 */
+    .col-1 {
+        padding: 0 3rem;
     }
 
-    /* ROW 2 */
-    .row-2 {
-        justify-content: flex-end;
-        height: 550px;
+    /* COL 2 */
+    .col-2 {
     }
 
     /* INPUT CONTAINER  */
     .input-field {
         padding: 6px;
         border: 1px hsl(0, 36%, 70%) solid;
-        width: 70%;
+        width: 90%;
         border-radius: 20px;
         /* margin-bottom: 12px; */
+    }
+
+    ::placeholder {
+        font-size: 10px;
+    }
+
+    .button-container {
+        margin-left: -60px;
     }
 
     button {
@@ -55,6 +61,7 @@
     .container {
         grid-template-columns: repeat(1, 1fr);
         width: 100vw;
+        height: 100vh;
     }
 
     #logo {
@@ -66,28 +73,29 @@
         margin: 2rem;
     }
 
-    /* ROW 1 */
-    .row-1 {
+    /* col 1 */
+    .col-1 {
         order: 2;
-        padding: 1rem 0;
+        padding: 1rem;
     }
 
     .info-container {
         text-align: center;
-        padding: 2rem 0;
+        padding: 3rem 0;
+        /* height: 50; */
     }
 
     #main-heading {
         font-size: 3rem;
-        line-height: 3rem;
+        line-height: 3.5rem;
     }
 
     #info {
         text-align: center;
-        width: 80%;
+        width: 90%;
         line-height: 1.3rem;
         margin: 1.5rem auto;
-        font-size: 1rem;
+        font-size: 13px;
     }
 
     .input-container {
@@ -95,13 +103,15 @@
     }
 
     .input-field {
-        padding: 14px;
+        padding: 21px;
+        width: 80%;
     }
 
     /* ROW 2 */
-    .row-2 {
+    .col-2 {
+        background-image: url("../images/hero-mobile.jpg");
         /* order: 1; */
-        height: auto;
+        height: 40vh;
     }
 
     #pic-1 {

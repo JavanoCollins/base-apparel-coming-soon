@@ -14,7 +14,7 @@ button.addEventListener("click", () => {
         errorIcon.style.display = "block";
         errorMessage.style.display = "block";
     } else {
-        // input.style.border = "none";
+        input.style.border = "1px hsl(0, 36%, 70%) solid";
         errorIcon.style.display = "none";
         errorMessage.style.display = "none";
     }
