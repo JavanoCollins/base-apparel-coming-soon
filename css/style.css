@@ -12,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     /* background-color: #ccc; */
+    padding: 0 2rem;
 }
 
 .container {
@@ -27,7 +28,7 @@ body {
 /* ROW 1 */
 .row-1 {
     display: flex;
-    /* width: 50%; */
+    width: 100%;
     flex-direction: column;
     justify-content: space-around;
     height: 100%;
@@ -67,7 +68,7 @@ body {
 /* ROW 2 */
 .row-2 {
     justify-content: flex-end;
-    /* width: 50%; */
+    width: 100%;
     height: 700px;
 }
 
