@@ -1,0 +1,109 @@
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 90vw;
+        height: auto;
+    }
+
+    #logo {
+        width: 120px;
+    }
+
+    #main-heading {
+        color: #000;
+        letter-spacing: 10px;
+        line-height: 2.5rem;
+        font-size: 2rem;
+    }
+
+    #info {
+        letter-spacing: 0.5px;
+        line-height: 1rem;
+        font-size: 12px;
+    }
+
+    /* ROW 2 */
+    .row-2 {
+        justify-content: flex-end;
+        /* width: 50%; */
+        height: 450px;
+    }
+
+    /* INPUT CONTAINER  */
+    .input-field {
+        padding: 6px;
+        border: 1px hsl(0, 36%, 70%) solid;
+        width: 70%;
+        border-radius: 20px;
+        /* margin-bottom: 12px; */
+    }
+
+    button {
+        padding: 6px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        height: auto;
+    }
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100vw;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #mobile-logo {
+        display: block;
+        margin: 2rem;
+    }
+
+    /* ROW 1 */
+    .row-1 {
+        order: 2;
+        padding: 1rem 0;
+    }
+
+    .info-container {
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    #main-heading {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    #info {
+        text-align: center;
+        width: 80%;
+        line-height: 1.3rem;
+        margin: 1.5rem auto;
+        font-size: 1rem;
+    }
+
+    .input-container {
+        justify-content: center;
+    }
+
+    .input-field {
+        padding: 14px;
+    }
+
+    /* ROW 2 */
+    .row-2 {
+        /* order: 1; */
+        height: auto;
+    }
+
+    #pic-1 {
+        display: none;
+    }
+
+    #pic-1-mobile {
+        display: block;
+        width: 100%;
+    }
+}
